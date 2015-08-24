@@ -1,0 +1,120 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.header {
+	height: 0px;
+	
+}
+
+.wrapper {
+
+	background-image: url("../images/TUE K7.jpg");
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+	font-weight: 200;
+	color: white;
+	padding-top: 150px;
+	font-size: 92px
+}
+
+.lead h1{
+	font-size: 72px;
+	text-shadow: 2px 2px rgba(253, 167, 46, 0.9);	
+	font-weight: 700;
+	text-align: center;
+	color: white;
+	font-family: 'Lobster', cursive;
+
+}	
+
+.lead h2{
+	
+	text-align: center;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+
+}	
+
+.lead p{
+	font-size: 22px;
+	text-shadow: 0 0 20px rgba(255, 255, 255, .9);	
+	font-weight: 200;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-transparent {
+	background-color: rgba(0, 0, 0, 0.3);
+	border: rgba(253, 167, 46, 0);
+}	
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-title > li > a {
+  color: rgb(255,255,255);
+  line-height: 20px;
+  font-family: 'Lobster', cursive;
+
+
+}
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: rgb(255,255,255);
+  line-height: 20px;
+
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+	color: #FF9A44;
+  	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: #FF9A44;}
+
+.btn-primary {
+
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	border-color: #C95B0C;
+	margin: 60px;
+	border-radius : 1000px 1000px 1000px 1000px;
+	width: 25%;
+	padding: 10px 20px;
+	font-size: 18px;
+}
+
+.btn-primary:hover	{
+
+	background-color: rgba(0, 0, 0, 0.7);
+	border-color: #C95B0C;
+}
+
+.fonction {
+	padding : 2px;
+	font-weight: 300
+}
+
+.fonction img {
+	padding : 10px;
+	border: 2px solid black;
+	border-radius: 20%;
+	margin : 10px; 
+}
+
+.fonction img:hover {
+	padding : 5px;
+	border: 2px solid black;
+	border-radius: 20%;
+}
